@@ -28,10 +28,10 @@ export const NavBar = () => {
                         </li>
                         <li className='fs-5 fw-bold mt-1'>|</li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold">sing up</a>
+                            <a class="nav-link fw-bold" href='#'>sing up</a>
                         </li>
                     </ul>
-                    <form class="d-flex bg-light rounded-pill" role="search">
+                    <form class="d-flex bg-light rounded-pill col-3 col-md-1 justify-content-around" role="search">
                         <div class="btn-group dropstart">
                             <button type="button" class="btn btn-outline-ligth border-0 " data-bs-toggle="dropdown" aria-expanded="false">
                                 <FontAwesomeIcon icon={faMagnifyingGlass} />
@@ -40,7 +40,6 @@ export const NavBar = () => {
                                 <input type="search" id="form1" class="form-control-dropdown border-0" data-bs-focus='border-0'/>
                             </ul>
                         </div>
-                        <button class="btn btn-outline-ligth text-dark border-0" type="submit"></button>
                         <button class="btn btn-outline-light text-dark border-0" type="submit"><FontAwesomeIcon icon={faBagShopping} /></button>
                     </form>
                 </div>
