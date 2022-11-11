@@ -1,7 +1,8 @@
-import React from 'react'
-import imagen from '../../assets/img/imagen.webp'
-import image from '../../assets/img/image.png'
-import { Products } from '../products/Products'
+import img1 from '../../assets/img/products/img1.png'
+import img2 from '../../assets/img/products/img2.PNG'
+import img3 from '../../assets/img/products/img3.PNG'
+import img4 from '../../assets/img/products/img4.PNG'
+
 
 export const Index = () => {
     return (
@@ -17,15 +18,14 @@ export const Index = () => {
                     </div>
                 </div>
                 <div className='col col-5 row gy-2 d-flex justify-content-center'>
-                    <img src={image} alt="imagen" className='col' />
+                    <img src={img1} alt="imagen" className='col' />
                     <div className='row mt-4 d-flex justify-content-between px-0'>
-                        <img src={imagen} alt="imagen" className='col-4' />
-                        <img src={imagen} alt="imagen" className='col-4' />
-                        <img src={imagen} alt="imagen" className='col-4' />
+                        <img src={img2} alt="imagen" className='col-4' />
+                        <img src={img3} alt="imagen" className='col-4' />
+                        <img src={img4} alt="imagen" className='col-4' />
                     </div>
                 </div>
             </div>
-            <Products/>
         </div>
     )
 }
