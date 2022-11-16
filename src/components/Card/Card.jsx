@@ -2,11 +2,14 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import img1 from '../../assets/img/products/img1.png'
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const Card = () => {
+    const navigate = useNavigate()
     return (
         <div className="card" style={{width: "20rem"}}>
-            <img src={img1} className="card-img-top" alt="..."/>
+            <img src={img1} className="card-img-top" alt="Producto" onClick={()=>navigate('detail')}
+            style={{cursor: "pointer"}} />
                 <div className="card-body">
                 <h5 className="card-title">Título</h5>
                     <p className="fs-6 fw-lighter">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>

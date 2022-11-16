@@ -93,7 +93,6 @@ export const Products = () => {
                         </div>
                     </div>
                     <div className='container mx-auto col-10 mt-4'>
-
                         <button className='col-8 me-2 border-0 rounded' style={{ backgroundColor: "#E16026", color: "#FDEBD3" }}>APLICAR FILTRO</button>
                         <button className='col-2 rounded bg-dark' style={{ border: "solid 1px #E16026", color: "#FDEBD3" }}><FontAwesomeIcon icon={faTrashCan} /></button>
                     </div>

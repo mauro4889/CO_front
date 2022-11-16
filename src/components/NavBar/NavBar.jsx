@@ -24,7 +24,7 @@ export const NavBar = () => {
                             <NavLink to='/processes' style={{color: "#FDEBD3", textDecoration: "none"}}>Procesos</NavLink>
                         </li>
                         <li class="nav-item">
-                            <NavLink to='' style={{color: "#FDEBD3", textDecoration: "none"}}>Sobre Nosotros</NavLink>
+                            <NavLink to='/about' style={{color: "#FDEBD3", textDecoration: "none"}}>Sobre Nosotros</NavLink>
                         </li>
                     </ul>
                     <ul class="navbar-nav mb-2 ms-5 me-4 mb-lg-0">

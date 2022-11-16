@@ -3,12 +3,14 @@ import img1 from '../../assets/img/products/img1.png'
 import img2 from '../../assets/img/products/img2.PNG'
 import img3 from '../../assets/img/products/img3.PNG'
 import img4 from '../../assets/img/products/img4.PNG'
+import { FeatureProducts } from '../../components/FeatureProducts/FeatureProducts'
 
 
 export const Index = () => {
     return (
         <div className='container-fluid mt-5 bg-dark'>
-            <div className='row row-cols-2'>
+            <FeatureProducts/>
+            <div className='row row-cols-2 mt-5'>
                 <div className='col ms-5'>
                     <h2 className='fs-1' style={{color: "#FDEBD3"}}>Titulo</h2>
                     <p className='my-4' style={{color: "#FDEBD3"}}>SUBTITULO 1</p>

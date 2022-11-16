@@ -29,7 +29,7 @@ export const Footer = () => {
                                 <li>
                                     <NavLink to='/processes' style={{ color: "#FDEBD3", textDecoration: "none" }}>Procesos</NavLink></li>
                                 <li>
-                                    <NavLink to='' style={{ color: "#FDEBD3", textDecoration: "none" }}>Sobre Nosotros</NavLink></li>
+                                    <NavLink to='/about' style={{ color: "#FDEBD3", textDecoration: "none" }}>Sobre Nosotros</NavLink></li>
                             </ul>
                         </div>
                         <div className="col">
