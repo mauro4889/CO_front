@@ -39,7 +39,7 @@ export const Footer = () => {
                                     <a href="https://www.instagram.com/carlos_ovand/" target={"_blank"} style={{ color: "#FDEBD3", textDecoration: "none" }}><img src={ig} alt="Instagram" className='me-2' />Instagram</a>
                                 </li>
                                 <li>
-                                <a href="#" target={"_blank"} style={{ color: "#FDEBD3", textDecoration: "none" }}><img src={fb} alt="Instagram" className='me-2' />Facebook</a>
+                                <a href="https://www.facebook.com/lalovando" target={"_blank"} style={{ color: "#FDEBD3", textDecoration: "none" }}><img src={fb} alt="Instagram" className='me-2' />Facebook</a>
                                 </li>
                             </ul>
                         </div>
