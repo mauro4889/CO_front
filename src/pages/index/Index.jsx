@@ -29,7 +29,7 @@ export const Index = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col" style={{ overflow: "hidden", maxHeight: "540px" }}>
                     <ScrollComponent/>
                 </div>
             </div>

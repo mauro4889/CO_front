@@ -7,6 +7,8 @@ import { AboutUs } from '../pages/aboutUs/AboutUs'
 import { ProductDetail } from '../pages/productDetail/ProductDetail'
 import { ChekOut } from '../pages/checkout/ChekOut'
 import { Summary } from '../pages/summary/Summary'
+import { Login } from '../components/login/Login'
+import { Sesion } from '../pages/sesion/Sesion'
 
 export const Routes = () => {
     return(
@@ -18,6 +20,7 @@ export const Routes = () => {
             <Route path='products/detail' element={<ProductDetail/>}/>
             <Route path='checkout' element={<ChekOut/>}/>
             <Route path='summary' element={<Summary/>}/>
+            <Route path='auth' element={<Sesion/>}/>
         </ReactDomRoutes>
     )
 }

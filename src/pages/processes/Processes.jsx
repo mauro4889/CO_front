@@ -1,6 +1,6 @@
 import React from 'react'
-import proce1 from '../../assets/img/processes/proce1.png'
 import img1 from '../../assets/img/products/img1.png'
+import proceso from '../../assets/video/proceso.mp4'
 
 export const Processes = () => {
     return (
@@ -8,7 +8,9 @@ export const Processes = () => {
             <div className='border-start-0 border-end-0 row' style={{ border: "solid 2px #FDEBD3" }}>Palabras</div>
             <div className='container-fluid row' >
                 <div className='col-4 mt-4 mb-3'>
-                    <img className='w-75' src={proce1} alt="Imagen Proceso" />
+                    <video className='w-100' loop autoPlay muted>
+                        <source src={proceso} />
+                    </video>
                 </div>
                 <div className='col border-start ps-5'>
                     <p className='mt-4'>CARLOS OSVAND</p>
@@ -20,16 +22,22 @@ export const Processes = () => {
             </div>
             <div className='container-fluid mt-0 pt-4 border-top'>
                 <div className='row justify-content-center'>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
-                    <div className="col-1"><img src={img1} alt="producto" style={{width:"6em"}} /></div>
+                    <div className="col-3">
+                        <img className='w-100' src={img1} alt="producto" />
+                        <p>Nuestra historia</p>
+                    </div>
+                    <div className="col-3">
+                        <img className='w-100' src={img1} alt="producto" />
+                        <p>Nuestra historia</p>
+                    </div>
+                    <div className="col-3">
+                        <img className='w-100' src={img1} alt="producto" />
+                        <p>Nuestra historia</p>
+                    </div>
+                    <div className="col-3">
+                        <img className='w-100' src={img1} alt="producto" />
+                        <p>Nuestra historia</p>
+                    </div>
                 </div>
             </div>
         </div>

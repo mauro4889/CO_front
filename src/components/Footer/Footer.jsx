@@ -9,7 +9,7 @@ import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 export const Footer = () => {
     return (
-        <div className='container-fluid mt-4 border-top pt-4 pb-4'>
+        <div className='container-fluid mt-4 border-top pt-4 pb-0' style={{ backgroundColor: "#E16026" }}>
             <div className="row">
                 <div className="col-3 d-flex flex-column align-items-center">
                     <img src={logo} alt="Logo" style={{width: "5em"}} />
@@ -19,7 +19,7 @@ export const Footer = () => {
                     <div className="row">
                         <div className="col">
                             <p className='fs-5 text-white'>Navegación</p>
-                            <ul>
+                            <ul style={{ listStyle: "none" }}>
                                 <li>
                                     <NavLink to='/' style={{ color: "#FDEBD3", textDecoration: "none" }}>Inicio</NavLink>
                                 </li>
@@ -34,7 +34,7 @@ export const Footer = () => {
                         </div>
                         <div className="col">
                             <p className='fs-5 text-white'>Seguinos</p>
-                            <ul>
+                            <ul style={{ listStyle: "none" }}>
                                 <li>
                                     <a href="https://www.instagram.com/carlos_ovand/" target={"_blank"} style={{ color: "#FDEBD3", textDecoration: "none" }}><img src={ig} alt="Instagram" className='me-2' />Instagram</a>
                                 </li>
@@ -53,6 +53,9 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="row" style={{ backgroundColor: "#F6B17B" }}>
+                <p className='text-center mt-2'>Página hecha por el equipo 9 de <span className='fw-bold'>Hunteando</span></p>
             </div>
         </div>
     )

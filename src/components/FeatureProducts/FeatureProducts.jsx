@@ -11,7 +11,7 @@ export const FeatureProducts = () => {
                     <button className='btn rounded border-0 fw-bold' style={{ backgroundColor: "#E16026", color: "#FDEBD3", width: "15em", height: "2em" }}>Label</button>
                 </div>
                 <div className="col">
-                    <img className='img-fluid' src={wide_img} alt="Producto" />
+                    <img className='float-end' src={wide_img} alt="Producto" />
                 </div>
             </div>
             <div className="row" style={{ backgroundColor: "#E4D6CB", height: "15em" }}>
@@ -23,9 +23,9 @@ export const FeatureProducts = () => {
                     <img src={wide_img} alt="Producto" />
                 </div>
                 <div className="col">
-                    <h5 className='text-white'>Y los complementos necesarios</h5>
-                    <p className='text-white'>Azucareras, Porta Utensilios, Tarros, Untadores, Posa cubiertos, Cucharitas, posa cucharón. Porque los detalles dan ese toque especial.</p>
-                    <button className='btn rounded border-0 fw-bold' style={{ backgroundColor: "#E16026", color: "#FDEBD3", width: "15em", height: "2em" }}>Label</button>
+                    <h5 className='text-white text-end'>Y los complementos necesarios</h5>
+                    <p className='text-white text-end'>Azucareras, Porta Utensilios, Tarros, Untadores, Posa cubiertos, Cucharitas, posa cucharón. Porque los detalles dan ese toque especial.</p>
+                    <button className='btn rounded border-0 fw-bold ms-5' style={{ backgroundColor: "#E16026", color: "#FDEBD3", width: "15em", height: "2em" }}>Label</button>
                 </div>
             </div>
         </div>
