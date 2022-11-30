@@ -1,6 +1,6 @@
 const SET_SELECT = 'SET_SELECT'
 
-const setCurrentSelection = select = =>({
+const setCurrentSelection = select =>({
     type: SET_SELECT,
     payload: select
 })
